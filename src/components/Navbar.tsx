@@ -300,8 +300,15 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
               document.documentElement.classList.toggle("dark");
             }}
           >
-            {effectiveVariant === "light" ? (
-              <Sun size={22} />
+            {variant === "dark" ? (
+              <Sun
+                size={22}
+                className={
+                  effectiveVariant === "dark"
+                    ? "text-bg dark:text-text-dark"
+                    : ""
+                }
+              />
             ) : (
               <Moon
                 size={22}
@@ -459,7 +466,7 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
                     : "text-bg dark:text-text-dark"
                 }`}
             >
-              Sign Up
+              Sign&nbsp;Up
             </Link>
           </div>
           <button
@@ -469,11 +476,7 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
               document.documentElement.classList.toggle("dark");
             }}
           >
-            {effectiveVariant === "light" ? (
-              <Sun size={24} />
-            ) : (
-              <Moon size={24} />
-            )}
+            {variant === "dark" ? <Sun size={24} /> : <Moon size={24} />}
           </button>
         </div>
       </nav>
