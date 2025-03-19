@@ -331,7 +331,9 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
               : "text-bg dark:text-text-dark"
           }`}
       >
-        <Logo variant={effectiveVariant} />
+        <Link href={'/'}>
+          <Logo variant={effectiveVariant} />
+        </Link>
 
         <div className="flex items-center gap-3">
           <button
