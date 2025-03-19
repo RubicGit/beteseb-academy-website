@@ -1,5 +1,6 @@
 export const books = [
   {
+    bookURL: "extreme-chemistry",
     bookName: "Extreme Series - Chemistry Grade 11-12",
     author: "Mengesha Moges",
     category: ["Educational", "Science"],
@@ -11,6 +12,7 @@ export const books = [
       "The Extreme Series Chemistry Grade 11-12 book is a comprehensive guide to key chemistry concepts with practical experiments and problem-solving sessions—essential for excelling in chemistry.",
   },
   {
+    bookURL: "advanced-physics",
     bookName: "Advanced Physics - Mechanics and Thermodynamics",
     author: "Prof. Michael Chen",
     category: ["Science", "Physics"],
@@ -22,6 +24,7 @@ export const books = [
       "The Advanced Physics textbook covers essential mechanics and thermodynamics principles with detailed examples, practical applications, and challenging problem sets designed for college preparation.",
   },
   {
+    bookURL: "biology-fundamentals",
     bookName: "Biology Fundamentals - Cellular to Ecosystem",
     author: "Dr. Emily Rodriguez",
     category: "Science",
@@ -31,6 +34,90 @@ export const books = [
     coverImage: "/books/biology.jpg",
     description:
       "Biology Fundamentals takes students on a journey from microscopic cellular structures to complex ecosystems, featuring detailed illustrations, case studies, and laboratory experiments for hands-on learning.",
+  },
+  {
+    bookURL: "math-calculus",
+    bookName: "Mathematics Master Series - Calculus",
+    author: "Dr. James Wilson",
+    category: "Mathematics",
+    rating: 4.9,
+    availableBooks: 7,
+    totalBooks: 10,
+    coverImage: "/books/calculus.jpg",
+    description:
+      "This comprehensive calculus textbook bridges theoretical concepts with real-world applications, featuring step-by-step problem solving, visualization techniques, and practice exercises for mastering differential and integral calculus.",
+  },
+  {
+    bookURL: "world-history",
+    bookName: "Complete Guide to World History",
+    author: "Prof. Elizabeth Taylor",
+    category: "History",
+    rating: 4.5,
+    availableBooks: 12,
+    totalBooks: 18,
+    coverImage: "/books/history.jpg",
+    description:
+      "The Complete Guide to World History chronicles human civilization from ancient societies to modern times, exploring cultural developments, political transformations, and technological innovations that shaped our global narrative.",
+  },
+  {
+    bookURL: "english-anthology",
+    bookName: "English Literature Anthology",
+    author: "Dr. Robert Brown",
+    category: "Literature",
+    rating: 4.4,
+    availableBooks: 9,
+    totalBooks: 15,
+    coverImage: "/books/literature.jpg",
+    description:
+      "This anthology presents a curated collection of influential literary works across different periods and genres, accompanied by critical analyses, historical context, and discussion questions to develop analytical thinking skills.",
+  },
+  {
+    bookURL: "cs-principles",
+    bookName: "Computer Science Principles",
+    author: "Prof. Alan Thomas",
+    category: "Technology",
+    rating: 4.7,
+    availableBooks: 6,
+    totalBooks: 10,
+    coverImage: "/books/cs.jpg",
+    description:
+      "Computer Science Principles introduces fundamental computing concepts including algorithms, data structures, and programming paradigms with practical coding exercises in Python and Java to build a solid foundation for further study.",
+  },
+  {
+    bookURL: "geography-studies",
+    bookName: "Geography and Environmental Studies",
+    author: "Dr. Maria Garcia",
+    category: "Geography",
+    rating: 4.3,
+    availableBooks: 11,
+    totalBooks: 14,
+    coverImage: "/books/geography.jpg",
+    description:
+      "This comprehensive guide explores physical geography, human settlements, and environmental challenges, featuring case studies on climate change, resource management, and sustainable development with detailed maps and data analysis.",
+  },
+  {
+    bookURL: "art-design",
+    bookName: "Art and Design Fundamentals",
+    author: "Ms. Clara Johnson",
+    category: "Art",
+    rating: 4.6,
+    availableBooks: 10,
+    totalBooks: 15,
+    coverImage: "/books/art.jpg",
+    description:
+      "Art and Design Fundamentals introduces students to the principles of design, color theory, and various artistic techniques, encouraging creativity and self-expression through hands-on projects.",
+  },
+  {
+    bookURL: "psychology-intro",
+    bookName: "Introduction to Psychology",
+    author: "Dr. Steven Carter",
+    category: "Psychology",
+    rating: 4.8,
+    availableBooks: 9,
+    totalBooks: 12,
+    coverImage: "/books/psychology.jpg",
+    description:
+      "This book provides an overview of psychological theories, human behavior, and mental processes, with real-world examples and case studies to help students understand the science of the mind.",
   },
   {
     bookName: "Mathematics Master Series - Calculus",
