@@ -1,3 +1,5 @@
+"use client";
+
 import Logo from "@/assets/Logo";
 import {
   ChevronDown,
@@ -49,11 +51,49 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const mobileDropdownRef = useRef<HTMLDivElement>(null);
 
+  // Function to toggle theme
+  const toggleTheme = () => {
+    // Explicitly target the html element
+    const htmlElement = document.querySelector("html");
+    if (htmlElement) {
+      // Toggle the dark class
+      const isDark = htmlElement.classList.contains("dark");
+
+      if (isDark) {
+        htmlElement.classList.remove("dark");
+        setVariant("light");
+        localStorage.setItem("darkMode", "false");
+      } else {
+        htmlElement.classList.add("dark");
+        setVariant("dark");
+        localStorage.setItem("darkMode", "true");
+      }
+    }
+  };
+
   useEffect(() => {
-    // Initial check for dark mode
-    setVariant(
-      document.documentElement.classList.contains("dark") ? "dark" : "light"
-    );
+    // Check localStorage first for saved preference
+    const savedDarkMode = localStorage.getItem("darkMode");
+
+    if (savedDarkMode === "true") {
+      document.documentElement.classList.add("dark");
+      setVariant("dark");
+    } else if (savedDarkMode === "false") {
+      document.documentElement.classList.remove("dark");
+      setVariant("light");
+    } else {
+      // If no preference is saved, check system preference
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      if (prefersDark) {
+        document.documentElement.classList.add("dark");
+        setVariant("dark");
+        localStorage.setItem("darkMode", "true");
+      } else {
+        setVariant("light");
+      }
+    }
 
     // Set up observer to watch for changes to the html class
     const classObserver = new MutationObserver((mutations) => {
@@ -296,9 +336,7 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
         <div className="flex items-center gap-3">
           <button
             className="p-2 rounded-full focus:outline-none"
-            onClick={() => {
-              document.documentElement.classList.toggle("dark");
-            }}
+            onClick={toggleTheme}
           >
             {variant === "dark" ? (
               <Sun
@@ -472,9 +510,7 @@ const Navbar = ({ breakpoint = "md" }: NavbarProps) => {
           <button
             className={`p-4 rounded-full hover:bg-opacity-90 focus:outline-none cursor-pointer
               ${effectiveVariant === "light" ? "text-text" : "text-bg"}`}
-            onClick={() => {
-              document.documentElement.classList.toggle("dark");
-            }}
+            onClick={toggleTheme}
           >
             {variant === "dark" ? <Sun size={24} /> : <Moon size={24} />}
           </button>

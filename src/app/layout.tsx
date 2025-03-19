@@ -15,7 +15,7 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "Beteseb Academy",
+  title: "Home | Beteseb Academy",
   description: "",
   viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
 };
