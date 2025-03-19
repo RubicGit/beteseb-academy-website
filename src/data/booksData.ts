@@ -87,6 +87,149 @@ export const books = [
     description:
       "This comprehensive guide explores physical geography, human settlements, and environmental challenges, featuring case studies on climate change, resource management, and sustainable development with detailed maps and data analysis.",
   },
+  {
+    "book-name": "Art and Design Fundamentals",
+    author: "Ms. Clara Johnson",
+    category: "Art",
+    rating: 4.6,
+    "available-books": 10,
+    "total-books": 15,
+    "cover-image": "/books/art.jpg",
+    description:
+      "Art and Design Fundamentals introduces students to the principles of design, color theory, and various artistic techniques, encouraging creativity and self-expression through hands-on projects.",
+  },
+  {
+    "book-name": "Introduction to Psychology",
+    author: "Dr. Steven Carter",
+    category: "Psychology",
+    rating: 4.8,
+    "available-books": 9,
+    "total-books": 12,
+    "cover-image": "/books/psychology.jpg",
+    description:
+      "This book provides an overview of psychological theories, human behavior, and mental processes, with real-world examples and case studies to help students understand the science of the mind.",
+  },
+  {
+    "book-name": "Economics for Beginners",
+    author: "Prof. Linda Green",
+    category: "Economics",
+    rating: 4.5,
+    "available-books": 8,
+    "total-books": 10,
+    "cover-image": "/books/economics.jpg",
+    description:
+      "Economics for Beginners simplifies complex economic concepts, covering topics like supply and demand, market structures, and global trade, with practical examples and exercises.",
+  },
+  {
+    "book-name": "Astronomy: Exploring the Universe",
+    author: "Dr. Neil Armstrong",
+    category: "Science",
+    rating: 4.7,
+    "available-books": 7,
+    "total-books": 10,
+    "cover-image": "/books/astronomy.jpg",
+    description:
+      "Astronomy: Exploring the Universe takes readers on a journey through space, covering celestial objects, cosmic phenomena, and the latest discoveries in astrophysics.",
+  },
+  {
+    "book-name": "Philosophy: A Beginner's Guide",
+    author: "Dr. Sophia White",
+    category: "Philosophy",
+    rating: 4.4,
+    "available-books": 10,
+    "total-books": 15,
+    "cover-image": "/books/philosophy.jpg",
+    description:
+      "This guide introduces key philosophical ideas and thinkers, encouraging critical thinking and exploration of fundamental questions about existence, knowledge, and ethics.",
+  },
+  {
+    "book-name": "Music Theory Essentials",
+    author: "Mr. David Lee",
+    category: "Music",
+    rating: 4.6,
+    "available-books": 12,
+    "total-books": 18,
+    "cover-image": "/books/music.jpg",
+    description:
+      "Music Theory Essentials provides a comprehensive introduction to musical notation, harmony, and composition techniques, with exercises to develop practical skills.",
+  },
+  {
+    "book-name": "Introduction to Robotics",
+    author: "Dr. Kevin Adams",
+    category: "Technology",
+    rating: 4.8,
+    "available-books": 5,
+    "total-books": 8,
+    "cover-image": "/books/robotics.jpg",
+    description:
+      "This book explores the fundamentals of robotics, including mechanical design, sensors, and programming, with hands-on projects to build and control robots.",
+  },
+  {
+    "book-name": "Environmental Science: A Global Perspective",
+    author: "Dr. Laura Martinez",
+    category: "Science",
+    rating: 4.7,
+    "available-books": 8,
+    "total-books": 12,
+    "cover-image": "/books/environment.jpg",
+    description:
+      "Environmental Science: A Global Perspective examines ecological systems, sustainability, and environmental challenges, with case studies and solutions for a greener future.",
+  },
+  {
+    "book-name": "Digital Marketing Essentials",
+    author: "Ms. Sarah Collins",
+    category: "Business",
+    rating: 4.6,
+    "available-books": 10,
+    "total-books": 15,
+    "cover-image": "/books/marketing.jpg",
+    description:
+      "Digital Marketing Essentials provides a practical guide to online marketing strategies, including SEO, social media, and content marketing, with real-world examples and case studies.",
+  },
+  {
+    "book-name": "Introduction to Artificial Intelligence",
+    author: "Dr. John Smith",
+    category: "Technology",
+    rating: 4.9,
+    "available-books": 6,
+    "total-books": 10,
+    "cover-image": "/books/ai.jpg",
+    description:
+      "This book introduces the fundamentals of artificial intelligence, covering machine learning, neural networks, and ethical considerations, with hands-on coding exercises.",
+  },
+  {
+    "book-name": "Creative Writing Workshop",
+    author: "Ms. Anna Harper",
+    category: "Literature",
+    rating: 4.5,
+    "available-books": 12,
+    "total-books": 18,
+    "cover-image": "/books/writing.jpg",
+    description:
+      "Creative Writing Workshop inspires aspiring writers with techniques for crafting compelling stories, developing characters, and refining their unique voice through practical exercises.",
+  },
+  {
+    "book-name": "The Art of Public Speaking",
+    author: "Mr. Brian Edwards",
+    category: "Communication",
+    rating: 4.7,
+    "available-books": 9,
+    "total-books": 12,
+    "cover-image": "/books/speaking.jpg",
+    description:
+      "The Art of Public Speaking equips readers with techniques to deliver impactful speeches, overcome stage fright, and engage audiences effectively.",
+  },
+  {
+    "book-name": "Data Science for Beginners",
+    author: "Dr. Rachel Green",
+    category: "Technology",
+    rating: 4.8,
+    "available-books": 7,
+    "total-books": 10,
+    "cover-image": "/books/datascience.jpg",
+    description:
+      "Data Science for Beginners introduces key concepts in data analysis, visualization, and machine learning, with Python-based projects to build practical skills.",
+  },
 ];
 
 export const popularBooks = [
