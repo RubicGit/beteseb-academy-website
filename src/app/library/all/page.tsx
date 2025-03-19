@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AllBooksComponent from "@/components/AllBooks";
-import { books } from "@/app/library/page";
+import { books } from "@/data/booksData";
 
 export default function AllBooks() {
   return (
