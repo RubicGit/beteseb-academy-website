@@ -5,13 +5,13 @@ import BookCard from "@/components/BookCard";
 import Link from "next/link";
 
 interface BookData {
-  "book-name": string;
+  bookName: string; // Updated to camelCase
   author: string;
   category: string[] | string;
   rating: number;
-  "available-books": number;
-  "total-books": number;
-  "cover-image": string;
+  availableBooks: number; // Updated to camelCase
+  totalBooks: number; // Updated to camelCase
+  coverImage: string; // Updated to camelCase
   description: string;
 }
 

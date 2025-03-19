@@ -4,13 +4,13 @@ import React, { useState } from "react";
 import BookCard from "@/components/BookCard";
 
 interface BookData {
-  "book-name": string;
+  bookName: string; // Updated to camelCase
   author: string;
   category: string[] | string;
   rating: number;
-  "available-books": number;
-  "total-books": number;
-  "cover-image": string;
+  availableBooks: number; // Updated to camelCase
+  totalBooks: number; // Updated to camelCase
+  coverImage: string; // Updated to camelCase
   description: string;
 }
 
@@ -22,7 +22,7 @@ const sortOptions = [
   { value: "name", label: "Name" },
   { value: "author", label: "Author" },
   { value: "rating", label: "Rating" },
-  { value: "available-books", label: "Available Books" },
+  { value: "availableBooks", label: "Available Books" }, // Updated to camelCase
 ];
 
 export default function AllBooks({ books }: PopularBooksProps) {
@@ -53,13 +53,13 @@ export default function AllBooks({ books }: PopularBooksProps) {
     // Sorting logic
     const sortedBooks = [...books].sort((a, b) => {
       if (option.value === "name") {
-        return a["book-name"].localeCompare(b["book-name"]);
+        return a.bookName.localeCompare(b.bookName); // Updated to camelCase
       } else if (option.value === "author") {
         return a.author.localeCompare(b.author);
       } else if (option.value === "rating") {
         return b.rating - a.rating;
-      } else if (option.value === "available-books") {
-        return b["available-books"] - a["available-books"];
+      } else if (option.value === "availableBooks") {
+        return b.availableBooks - a.availableBooks; // Updated to camelCase
       }
       return 0;
     });

@@ -5,13 +5,13 @@ import Image from "next/image";
 import { Star } from "lucide-react";
 
 interface BookData {
-  "book-name": string;
+  bookName: string;
   author: string;
   category: string[] | string;
   rating: number;
-  "available-books": number;
-  "total-books": number;
-  "cover-image": string;
+  availableBooks: number;
+  totalBooks: number;
+  coverImage: string;
   description: string;
 }
 
@@ -32,9 +32,9 @@ export default function BookCard({ book, variant = "short" }: BookCardProps) {
     >
       <div className="absolute inset-0 bg-secondary/5 dark:bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
       <div className={`${heightClass} bg-secondary dark:bg-secondary flex items-center justify-center relative`}>
-        {book["cover-image"] ? (
+        {book.coverImage ? (
           <Image
-            src={book["cover-image"]}
+            src={book.coverImage}
             alt=""
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
@@ -49,7 +49,7 @@ export default function BookCard({ book, variant = "short" }: BookCardProps) {
       </div>
       <div className="p-4">
         <h3 className={`font-bold text-lg mb-1 ${lineClampClass} text-text dark:text-text-dark`}>
-          {book["book-name"]}
+          {book.bookName}
         </h3>
         <p className="text-sm text-text dark:text-text-dark mb-2">
           {book.author}

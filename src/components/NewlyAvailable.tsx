@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 import { StarIcon } from "lucide-react";
 
 interface BookData {
-  "book-name": string;
+  bookName: string; // Updated to camelCase
   author: string;
   category: string[] | string;
   rating: number;
-  "available-books": number;
-  "total-books": number;
-  "cover-image": string;
+  availableBooks: number; // Updated to camelCase
+  totalBooks: number; // Updated to camelCase
+  coverImage: string; // Updated to camelCase
   description: string;
 }
 
@@ -29,7 +29,7 @@ export default function NewlyAvailable({ book }: NewlyAvailableProps) {
             Newly Available
           </h1>
           <h1 className="text-5xl font-bold w-full py-6 text-text dark:text-text-dark">
-            {book["book-name"]}
+            {book.bookName}
           </h1>
           <div className="flex flex-col gap-6 md:gap-4">
             <h2 className="text-lg text-text dark:text-text-dark">
@@ -62,13 +62,13 @@ export default function NewlyAvailable({ book }: NewlyAvailableProps) {
                 <p className="font-medium">
                   Available Books:{" "}
                   <span className="text-secondary dark:text-secondary font-bold px-2">
-                    {book["available-books"]}
+                    {book.availableBooks}
                   </span>
                 </p>
                 <p className="font-medium">
                   Total:{" "}
                   <span className="text-secondary dark:text-secondary font-bold px-2">
-                    {book["total-books"]}/5
+                    {book.totalBooks}
                   </span>
                 </p>
               </div>
