@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation"; // Import useRouter for navigation
 import { Star } from "lucide-react";
 
 interface BookData {
@@ -13,6 +14,7 @@ interface BookData {
   totalBooks: number;
   coverImage: string;
   description: string;
+  bookURL: string; // Add bookURL to the BookData interface
 }
 
 interface BookCardProps {
@@ -21,12 +23,19 @@ interface BookCardProps {
 }
 
 export default function BookCard({ book, variant = "short" }: BookCardProps) {
+  const router = useRouter(); // Initialize the router
+
   const heightClass = variant === "short" ? "h-48" : "h-64"; // Determine height based on variant
   const lineClampClass = variant === "short" ? "line-clamp-1" : "line-clamp-2"; // Determine line clamp based on variant
 
+  const handleCardClick = () => {
+    router.push(`/library/book/${book.bookURL}`); // Navigate to the book's URL
+  };
+
   return (
     <div
-      className="bg-background-secondary dark:bg-background-secondary rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden relative
+      onClick={handleCardClick} // Add click handler for navigation
+      className="cursor-pointer bg-background-secondary dark:bg-background-secondary rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden relative
       border border-gray-100 dark:border-gray-800
       dark:shadow-[0_4px_12px_rgba(0,0,0,0.2)] dark:hover:shadow-[0_8px_20px_rgba(0,0,0,0.3)]"
     >

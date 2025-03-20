@@ -10,6 +10,14 @@ export const books = [
     coverImage: "/assets/books/chemistry.jpg",
     description:
       "The Extreme Series Chemistry Grade 11-12 book is a comprehensive guide to key chemistry concepts with practical experiments and problem-solving sessions—essential for excelling in chemistry.",
+    publicationDate: "2022-05-15",
+    tableOfContents: [
+      "Chapter 1: Introduction to Chemistry",
+      "Chapter 2: Atomic Structure",
+      "Chapter 3: Chemical Bonding",
+      "Chapter 4: Stoichiometry",
+      "Chapter 5: Thermodynamics",
+    ],
   },
   {
     bookURL: "advanced-physics",
@@ -22,6 +30,14 @@ export const books = [
     coverImage: "/books/physics.jpg",
     description:
       "The Advanced Physics textbook covers essential mechanics and thermodynamics principles with detailed examples, practical applications, and challenging problem sets designed for college preparation.",
+    publicationDate: "2021-08-10",
+    tableOfContents: [
+      "Chapter 1: Mechanics",
+      "Chapter 2: Kinematics",
+      "Chapter 3: Dynamics",
+      "Chapter 4: Work and Energy",
+      "Chapter 5: Thermodynamics",
+    ],
   },
   {
     bookURL: "biology-fundamentals",
@@ -34,6 +50,14 @@ export const books = [
     coverImage: "/books/biology.jpg",
     description:
       "Biology Fundamentals takes students on a journey from microscopic cellular structures to complex ecosystems, featuring detailed illustrations, case studies, and laboratory experiments for hands-on learning.",
+    publicationDate: "2020-11-20",
+    tableOfContents: [
+      "Chapter 1: Introduction to Biology",
+      "Chapter 2: Cell Structure and Function",
+      "Chapter 3: Genetics",
+      "Chapter 4: Evolution",
+      "Chapter 5: Ecology",
+    ],
   },
   {
     bookURL: "math-calculus",
@@ -46,6 +70,14 @@ export const books = [
     coverImage: "/books/calculus.jpg",
     description:
       "This comprehensive calculus textbook bridges theoretical concepts with real-world applications, featuring step-by-step problem solving, visualization techniques, and practice exercises for mastering differential and integral calculus.",
+    publicationDate: "2019-03-25",
+    tableOfContents: [
+      "Chapter 1: Limits and Continuity",
+      "Chapter 2: Derivatives",
+      "Chapter 3: Applications of Derivatives",
+      "Chapter 4: Integrals",
+      "Chapter 5: Applications of Integrals",
+    ],
   },
   {
     bookURL: "world-history",
@@ -58,6 +90,14 @@ export const books = [
     coverImage: "/books/history.jpg",
     description:
       "The Complete Guide to World History chronicles human civilization from ancient societies to modern times, exploring cultural developments, political transformations, and technological innovations that shaped our global narrative.",
+    publicationDate: "2018-07-30",
+    tableOfContents: [
+      "Chapter 1: Ancient Civilizations",
+      "Chapter 2: Medieval Period",
+      "Chapter 3: Renaissance",
+      "Chapter 4: Industrial Revolution",
+      "Chapter 5: Modern Era",
+    ],
   },
   {
     bookURL: "english-anthology",
@@ -70,6 +110,14 @@ export const books = [
     coverImage: "/books/literature.jpg",
     description:
       "This anthology presents a curated collection of influential literary works across different periods and genres, accompanied by critical analyses, historical context, and discussion questions to develop analytical thinking skills.",
+    publicationDate: "2017-02-14",
+    tableOfContents: [
+      "Chapter 1: Classical Literature",
+      "Chapter 2: Medieval Literature",
+      "Chapter 3: Renaissance Literature",
+      "Chapter 4: Modern Literature",
+      "Chapter 5: Contemporary Literature",
+    ],
   },
   {
     bookURL: "cs-principles",
@@ -82,6 +130,14 @@ export const books = [
     coverImage: "/books/cs.jpg",
     description:
       "Computer Science Principles introduces fundamental computing concepts including algorithms, data structures, and programming paradigms with practical coding exercises in Python and Java to build a solid foundation for further study.",
+    publicationDate: "2016-09-05",
+    tableOfContents: [
+      "Chapter 1: Introduction to Computer Science",
+      "Chapter 2: Algorithms",
+      "Chapter 3: Data Structures",
+      "Chapter 4: Programming Paradigms",
+      "Chapter 5: Software Development",
+    ],
   },
   {
     bookURL: "geography-studies",
@@ -94,6 +150,14 @@ export const books = [
     coverImage: "/books/geography.jpg",
     description:
       "This comprehensive guide explores physical geography, human settlements, and environmental challenges, featuring case studies on climate change, resource management, and sustainable development with detailed maps and data analysis.",
+    publicationDate: "2015-04-18",
+    tableOfContents: [
+      "Chapter 1: Physical Geography",
+      "Chapter 2: Human Settlements",
+      "Chapter 3: Environmental Challenges",
+      "Chapter 4: Climate Change",
+      "Chapter 5: Sustainable Development",
+    ],
   },
   {
     bookURL: "art-design",
@@ -106,6 +170,14 @@ export const books = [
     coverImage: "/books/art.jpg",
     description:
       "Art and Design Fundamentals introduces students to the principles of design, color theory, and various artistic techniques, encouraging creativity and self-expression through hands-on projects.",
+    publicationDate: "2014-11-22",
+    tableOfContents: [
+      "Chapter 1: Principles of Design",
+      "Chapter 2: Color Theory",
+      "Chapter 3: Artistic Techniques",
+      "Chapter 4: Creative Projects",
+      "Chapter 5: Self-Expression",
+    ],
   },
   {
     bookURL: "psychology-intro",
@@ -118,8 +190,17 @@ export const books = [
     coverImage: "/books/psychology.jpg",
     description:
       "This book provides an overview of psychological theories, human behavior, and mental processes, with real-world examples and case studies to help students understand the science of the mind.",
+    publicationDate: "2013-06-10",
+    tableOfContents: [
+      "Chapter 1: Introduction to Psychology",
+      "Chapter 2: Human Behavior",
+      "Chapter 3: Mental Processes",
+      "Chapter 4: Psychological Theories",
+      "Chapter 5: Case Studies",
+    ],
   },
   {
+    bookURL: "math-calculus",
     bookName: "Mathematics Master Series - Calculus",
     author: "Dr. James Wilson",
     category: "Mathematics",
@@ -129,8 +210,17 @@ export const books = [
     coverImage: "/books/calculus.jpg",
     description:
       "This comprehensive calculus textbook bridges theoretical concepts with real-world applications, featuring step-by-step problem solving, visualization techniques, and practice exercises for mastering differential and integral calculus.",
+    publicationDate: "2019-03-25",
+    tableOfContents: [
+      "Chapter 1: Limits and Continuity",
+      "Chapter 2: Derivatives",
+      "Chapter 3: Applications of Derivatives",
+      "Chapter 4: Integrals",
+      "Chapter 5: Applications of Integrals",
+    ],
   },
   {
+    bookURL: "world-history",
     bookName: "Complete Guide to World History",
     author: "Prof. Elizabeth Taylor",
     category: "History",
@@ -140,8 +230,17 @@ export const books = [
     coverImage: "/books/history.jpg",
     description:
       "The Complete Guide to World History chronicles human civilization from ancient societies to modern times, exploring cultural developments, political transformations, and technological innovations that shaped our global narrative.",
+    publicationDate: "2018-07-30",
+    tableOfContents: [
+      "Chapter 1: Ancient Civilizations",
+      "Chapter 2: Medieval Period",
+      "Chapter 3: Renaissance",
+      "Chapter 4: Industrial Revolution",
+      "Chapter 5: Modern Era",
+    ],
   },
   {
+    bookURL: "english-anthology",
     bookName: "English Literature Anthology",
     author: "Dr. Robert Brown",
     category: "Literature",
@@ -151,8 +250,17 @@ export const books = [
     coverImage: "/books/literature.jpg",
     description:
       "This anthology presents a curated collection of influential literary works across different periods and genres, accompanied by critical analyses, historical context, and discussion questions to develop analytical thinking skills.",
+    publicationDate: "2017-02-14",
+    tableOfContents: [
+      "Chapter 1: Classical Literature",
+      "Chapter 2: Medieval Literature",
+      "Chapter 3: Renaissance Literature",
+      "Chapter 4: Modern Literature",
+      "Chapter 5: Contemporary Literature",
+    ],
   },
   {
+    bookURL: "cs-principles",
     bookName: "Computer Science Principles",
     author: "Prof. Alan Thomas",
     category: "Technology",
@@ -162,8 +270,17 @@ export const books = [
     coverImage: "/books/cs.jpg",
     description:
       "Computer Science Principles introduces fundamental computing concepts including algorithms, data structures, and programming paradigms with practical coding exercises in Python and Java to build a solid foundation for further study.",
+    publicationDate: "2016-09-05",
+    tableOfContents: [
+      "Chapter 1: Introduction to Computer Science",
+      "Chapter 2: Algorithms",
+      "Chapter 3: Data Structures",
+      "Chapter 4: Programming Paradigms",
+      "Chapter 5: Software Development",
+    ],
   },
   {
+    bookURL: "geography-studies",
     bookName: "Geography and Environmental Studies",
     author: "Dr. Maria Garcia",
     category: "Geography",
@@ -173,8 +290,17 @@ export const books = [
     coverImage: "/books/geography.jpg",
     description:
       "This comprehensive guide explores physical geography, human settlements, and environmental challenges, featuring case studies on climate change, resource management, and sustainable development with detailed maps and data analysis.",
+    publicationDate: "2015-04-18",
+    tableOfContents: [
+      "Chapter 1: Physical Geography",
+      "Chapter 2: Human Settlements",
+      "Chapter 3: Environmental Challenges",
+      "Chapter 4: Climate Change",
+      "Chapter 5: Sustainable Development",
+    ],
   },
   {
+    bookURL: "art-design",
     bookName: "Art and Design Fundamentals",
     author: "Ms. Clara Johnson",
     category: "Art",
@@ -184,8 +310,17 @@ export const books = [
     coverImage: "/books/art.jpg",
     description:
       "Art and Design Fundamentals introduces students to the principles of design, color theory, and various artistic techniques, encouraging creativity and self-expression through hands-on projects.",
+    publicationDate: "2014-11-22",
+    tableOfContents: [
+      "Chapter 1: Principles of Design",
+      "Chapter 2: Color Theory",
+      "Chapter 3: Artistic Techniques",
+      "Chapter 4: Creative Projects",
+      "Chapter 5: Self-Expression",
+    ],
   },
   {
+    bookURL: "psychology-intro",
     bookName: "Introduction to Psychology",
     author: "Dr. Steven Carter",
     category: "Psychology",
@@ -195,8 +330,17 @@ export const books = [
     coverImage: "/books/psychology.jpg",
     description:
       "This book provides an overview of psychological theories, human behavior, and mental processes, with real-world examples and case studies to help students understand the science of the mind.",
+    publicationDate: "2013-06-10",
+    tableOfContents: [
+      "Chapter 1: Introduction to Psychology",
+      "Chapter 2: Human Behavior",
+      "Chapter 3: Mental Processes",
+      "Chapter 4: Psychological Theories",
+      "Chapter 5: Case Studies",
+    ],
   },
   {
+    bookURL: "economics-beginners",
     bookName: "Economics for Beginners",
     author: "Prof. Linda Green",
     category: "Economics",
@@ -206,8 +350,17 @@ export const books = [
     coverImage: "/books/economics.jpg",
     description:
       "Economics for Beginners simplifies complex economic concepts, covering topics like supply and demand, market structures, and global trade, with practical examples and exercises.",
+    publicationDate: "2012-01-15",
+    tableOfContents: [
+      "Chapter 1: Introduction to Economics",
+      "Chapter 2: Supply and Demand",
+      "Chapter 3: Market Structures",
+      "Chapter 4: Global Trade",
+      "Chapter 5: Practical Examples",
+    ],
   },
   {
+    bookURL: "astronomy-universe",
     bookName: "Astronomy: Exploring the Universe",
     author: "Dr. Neil Armstrong",
     category: "Science",
@@ -217,8 +370,17 @@ export const books = [
     coverImage: "/books/astronomy.jpg",
     description:
       "Astronomy: Exploring the Universe takes readers on a journey through space, covering celestial objects, cosmic phenomena, and the latest discoveries in astrophysics.",
+    publicationDate: "2011-09-25",
+    tableOfContents: [
+      "Chapter 1: Introduction to Astronomy",
+      "Chapter 2: Celestial Objects",
+      "Chapter 3: Cosmic Phenomena",
+      "Chapter 4: Astrophysics",
+      "Chapter 5: Latest Discoveries",
+    ],
   },
   {
+    bookURL: "philosophy-guide",
     bookName: "Philosophy: A Beginner's Guide",
     author: "Dr. Sophia White",
     category: "Philosophy",
@@ -228,8 +390,17 @@ export const books = [
     coverImage: "/books/philosophy.jpg",
     description:
       "This guide introduces key philosophical ideas and thinkers, encouraging critical thinking and exploration of fundamental questions about existence, knowledge, and ethics.",
+    publicationDate: "2010-05-10",
+    tableOfContents: [
+      "Chapter 1: Introduction to Philosophy",
+      "Chapter 2: Key Philosophical Ideas",
+      "Chapter 3: Influential Thinkers",
+      "Chapter 4: Critical Thinking",
+      "Chapter 5: Fundamental Questions",
+    ],
   },
   {
+    bookURL: "music-theory",
     bookName: "Music Theory Essentials",
     author: "Mr. David Lee",
     category: "Music",
@@ -239,8 +410,17 @@ export const books = [
     coverImage: "/books/music.jpg",
     description:
       "Music Theory Essentials provides a comprehensive introduction to musical notation, harmony, and composition techniques, with exercises to develop practical skills.",
+    publicationDate: "2009-12-01",
+    tableOfContents: [
+      "Chapter 1: Musical Notation",
+      "Chapter 2: Harmony",
+      "Chapter 3: Composition Techniques",
+      "Chapter 4: Practical Exercises",
+      "Chapter 5: Developing Skills",
+    ],
   },
   {
+    bookURL: "robotics-intro",
     bookName: "Introduction to Robotics",
     author: "Dr. Kevin Adams",
     category: "Technology",
@@ -250,8 +430,17 @@ export const books = [
     coverImage: "/books/robotics.jpg",
     description:
       "This book explores the fundamentals of robotics, including mechanical design, sensors, and programming, with hands-on projects to build and control robots.",
+    publicationDate: "2008-08-15",
+    tableOfContents: [
+      "Chapter 1: Introduction to Robotics",
+      "Chapter 2: Mechanical Design",
+      "Chapter 3: Sensors",
+      "Chapter 4: Programming",
+      "Chapter 5: Hands-on Projects",
+    ],
   },
   {
+    bookURL: "environmental-science",
     bookName: "Environmental Science: A Global Perspective",
     author: "Dr. Laura Martinez",
     category: "Science",
@@ -261,8 +450,17 @@ export const books = [
     coverImage: "/books/environment.jpg",
     description:
       "Environmental Science: A Global Perspective examines ecological systems, sustainability, and environmental challenges, with case studies and solutions for a greener future.",
+    publicationDate: "2007-04-20",
+    tableOfContents: [
+      "Chapter 1: Ecological Systems",
+      "Chapter 2: Sustainability",
+      "Chapter 3: Environmental Challenges",
+      "Chapter 4: Case Studies",
+      "Chapter 5: Solutions",
+    ],
   },
   {
+    bookURL: "digital-marketing",
     bookName: "Digital Marketing Essentials",
     author: "Ms. Sarah Collins",
     category: "Business",
@@ -272,8 +470,17 @@ export const books = [
     coverImage: "/books/marketing.jpg",
     description:
       "Digital Marketing Essentials provides a practical guide to online marketing strategies, including SEO, social media, and content marketing, with real-world examples and case studies.",
+    publicationDate: "2006-11-05",
+    tableOfContents: [
+      "Chapter 1: Introduction to Digital Marketing",
+      "Chapter 2: SEO",
+      "Chapter 3: Social Media",
+      "Chapter 4: Content Marketing",
+      "Chapter 5: Case Studies",
+    ],
   },
   {
+    bookURL: "ai-intro",
     bookName: "Introduction to Artificial Intelligence",
     author: "Dr. John Smith",
     category: "Technology",
@@ -283,8 +490,17 @@ export const books = [
     coverImage: "/books/ai.jpg",
     description:
       "This book introduces the fundamentals of artificial intelligence, covering machine learning, neural networks, and ethical considerations, with hands-on coding exercises.",
+    publicationDate: "2005-06-30",
+    tableOfContents: [
+      "Chapter 1: Introduction to AI",
+      "Chapter 2: Machine Learning",
+      "Chapter 3: Neural Networks",
+      "Chapter 4: Ethical Considerations",
+      "Chapter 5: Coding Exercises",
+    ],
   },
   {
+    bookURL: "creative-writing",
     bookName: "Creative Writing Workshop",
     author: "Ms. Anna Harper",
     category: "Literature",
@@ -294,8 +510,17 @@ export const books = [
     coverImage: "/books/writing.jpg",
     description:
       "Creative Writing Workshop inspires aspiring writers with techniques for crafting compelling stories, developing characters, and refining their unique voice through practical exercises.",
+    publicationDate: "2004-03-12",
+    tableOfContents: [
+      "Chapter 1: Crafting Stories",
+      "Chapter 2: Developing Characters",
+      "Chapter 3: Refining Voice",
+      "Chapter 4: Practical Exercises",
+      "Chapter 5: Inspiration",
+    ],
   },
   {
+    bookURL: "public-speaking",
     bookName: "The Art of Public Speaking",
     author: "Mr. Brian Edwards",
     category: "Communication",
@@ -305,8 +530,17 @@ export const books = [
     coverImage: "/books/speaking.jpg",
     description:
       "The Art of Public Speaking equips readers with techniques to deliver impactful speeches, overcome stage fright, and engage audiences effectively.",
+    publicationDate: "2003-10-25",
+    tableOfContents: [
+      "Chapter 1: Introduction to Public Speaking",
+      "Chapter 2: Delivering Impactful Speeches",
+      "Chapter 3: Overcoming Stage Fright",
+      "Chapter 4: Engaging Audiences",
+      "Chapter 5: Practical Tips",
+    ],
   },
   {
+    bookURL: "data-science-beginners",
     bookName: "Data Science for Beginners",
     author: "Dr. Rachel Green",
     category: "Technology",
@@ -316,6 +550,14 @@ export const books = [
     coverImage: "/books/datascience.jpg",
     description:
       "Data Science for Beginners introduces key concepts in data analysis, visualization, and machine learning, with Python-based projects to build practical skills.",
+    publicationDate: "2002-07-15",
+    tableOfContents: [
+      "Chapter 1: Introduction to Data Science",
+      "Chapter 2: Data Analysis",
+      "Chapter 3: Data Visualization",
+      "Chapter 4: Machine Learning",
+      "Chapter 5: Python Projects",
+    ],
   },
 ];
 
@@ -330,6 +572,14 @@ export const popularBooks = [
     coverImage: "/assets/books/chemistry.jpg",
     description:
       "The Extreme Series Chemistry Grade 11-12 book is a comprehensive guide to key chemistry concepts with practical experiments and problem-solving sessions—essential for excelling in chemistry.",
+    publicationDate: "2022-05-15",
+    tableOfContents: [
+      "Chapter 1: Introduction to Chemistry",
+      "Chapter 2: Atomic Structure",
+      "Chapter 3: Chemical Bonding",
+      "Chapter 4: Stoichiometry",
+      "Chapter 5: Thermodynamics",
+    ],
   },
   {
     bookName: "Mathematics Master Series - Calculus",
@@ -341,6 +591,14 @@ export const popularBooks = [
     coverImage: "/books/calculus.jpg",
     description:
       "This comprehensive calculus textbook bridges theoretical concepts with real-world applications, featuring step-by-step problem solving, visualization techniques, and practice exercises for mastering differential and integral calculus.",
+    publicationDate: "2019-03-25",
+    tableOfContents: [
+      "Chapter 1: Limits and Continuity",
+      "Chapter 2: Derivatives",
+      "Chapter 3: Applications of Derivatives",
+      "Chapter 4: Integrals",
+      "Chapter 5: Applications of Integrals",
+    ],
   },
   {
     bookName: "Advanced Physics - Mechanics and Thermodynamics",
@@ -352,6 +610,14 @@ export const popularBooks = [
     coverImage: "/books/physics.jpg",
     description:
       "The Advanced Physics textbook covers essential mechanics and thermodynamics principles with detailed examples, practical applications, and challenging problem sets designed for college preparation.",
+    publicationDate: "2021-08-10",
+    tableOfContents: [
+      "Chapter 1: Mechanics",
+      "Chapter 2: Kinematics",
+      "Chapter 3: Dynamics",
+      "Chapter 4: Work and Energy",
+      "Chapter 5: Thermodynamics",
+    ],
   },
   {
     bookName: "Computer Science Principles",
@@ -363,5 +629,13 @@ export const popularBooks = [
     coverImage: "/books/cs.jpg",
     description:
       "Computer Science Principles introduces fundamental computing concepts including algorithms, data structures, and programming paradigms with practical coding exercises in Python and Java to build a solid foundation for further study.",
+    publicationDate: "2016-09-05",
+    tableOfContents: [
+      "Chapter 1: Introduction to Computer Science",
+      "Chapter 2: Algorithms",
+      "Chapter 3: Data Structures",
+      "Chapter 4: Programming Paradigms",
+      "Chapter 5: Software Development",
+    ],
   },
 ];

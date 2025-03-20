@@ -12,6 +12,7 @@ interface BookData {
   totalBooks: number; // Updated to camelCase
   coverImage: string; // Updated to camelCase
   description: string;
+  bookURL: string; // Added bookURL to match BookCard.tsx
 }
 
 interface PopularBooksProps {
