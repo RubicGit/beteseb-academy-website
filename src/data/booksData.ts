@@ -65,7 +65,7 @@ export const books = [
     author: "Dr. James Wilson",
     category: "Mathematics",
     rating: 4.9,
-    availableBooks: 7,
+    availableBooks: 0,
     totalBooks: 10,
     coverImage: "/books/calculus.jpg",
     description:
